@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74428391E778FCB008DD286 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74428381E778FCB008DD286 /* PlaySoundsViewController+Audio.swift */; };
+		A7C554FF1E7635BF00200C69 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C554FE1E7635BF00200C69 /* PlaySoundsViewController.swift */; };
 		A7E10E821E7510F80023ED72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10E811E7510F80023ED72 /* AppDelegate.swift */; };
-		A7E10E841E7510F80023ED72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10E831E7510F80023ED72 /* ViewController.swift */; };
+		A7E10E841E7510F80023ED72 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E10E831E7510F80023ED72 /* RecordSoundsViewController.swift */; };
 		A7E10E871E7510F80023ED72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E10E851E7510F80023ED72 /* Main.storyboard */; };
 		A7E10E891E7510F80023ED72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E10E881E7510F80023ED72 /* Assets.xcassets */; };
 		A7E10E8C1E7510F80023ED72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E10E8A1E7510F80023ED72 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74428381E778FCB008DD286 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		A7C554FE1E7635BF00200C69 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		A7E10E7E1E7510F80023ED72 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E10E811E7510F80023ED72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7E10E831E7510F80023ED72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7E10E831E7510F80023ED72 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		A7E10E861E7510F80023ED72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7E10E881E7510F80023ED72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E10E8B1E7510F80023ED72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A7E10E811E7510F80023ED72 /* AppDelegate.swift */,
-				A7E10E831E7510F80023ED72 /* ViewController.swift */,
+				A7E10E831E7510F80023ED72 /* RecordSoundsViewController.swift */,
+				A7C554FE1E7635BF00200C69 /* PlaySoundsViewController.swift */,
+				A74428381E778FCB008DD286 /* PlaySoundsViewController+Audio.swift */,
 				A7E10E851E7510F80023ED72 /* Main.storyboard */,
 				A7E10E881E7510F80023ED72 /* Assets.xcassets */,
 				A7E10E8A1E7510F80023ED72 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E10E841E7510F80023ED72 /* ViewController.swift in Sources */,
+				A7E10E841E7510F80023ED72 /* RecordSoundsViewController.swift in Sources */,
+				A74428391E778FCB008DD286 /* PlaySoundsViewController+Audio.swift in Sources */,
+				A7C554FF1E7635BF00200C69 /* PlaySoundsViewController.swift in Sources */,
 				A7E10E821E7510F80023ED72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				A7E10E921E7510F80023ED72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
